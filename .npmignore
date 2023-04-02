@@ -1,0 +1,12 @@
+node_modules/
+src/
+example/
+.vscode/
+.github/
+.fleet/
+.devcontainer/
+
+.eslintrc.json
+.eslintignore
+
+tsconfig.json
