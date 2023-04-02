@@ -1,6 +1,6 @@
 {
   "name": "template-package.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Template for Typescript package.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
