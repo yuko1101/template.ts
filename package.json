@@ -1,5 +1,5 @@
 {
-  "name": "template.ts",
+  "name": "template-package.ts",
   "version": "1.0.0",
   "description": "A Template for Typescript package.",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
     "lint": "npx eslint . --config .eslintrc.json --ext .js,.jsx,.cjs,.mjs,.ts,.tsx --ignore-path .eslintignore",
     "lint:fix": "npx eslint . --config .eslintrc.json --ext .js,.jsx,.cjs,.mjs,.ts,.tsx --ignore-path .eslintignore --fix",
     "build": "node -e \"const fs = require('fs'); if (fs.existsSync('./dist')) fs.rmSync('./dist', {recursive: true});\" && npx tsc",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "author": "yuko1101 (https://github.com/yuko1101)",
