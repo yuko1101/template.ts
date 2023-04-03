@@ -2,6 +2,9 @@
 example/package.json
 example/package-lock.json
 
+# Dev Test Folder
+dev-test/
+
 # Logs
 logs
 *.log
