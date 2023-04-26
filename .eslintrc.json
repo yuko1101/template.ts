@@ -29,9 +29,10 @@
                 "allowSingleLine": true
             }
         ],
-        "comma-dangle": [
+        "comma-dangle": "off",
+        "@typescript-eslint/comma-dangle": [
             "error",
-            "always-multiline"
+            "only-multiline"
         ],
         "comma-spacing": "error",
         "comma-style": "error",
