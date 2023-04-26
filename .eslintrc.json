@@ -110,10 +110,8 @@
             "error",
             "double"
         ],
-        "semi": [
-            "error",
-            "always"
-        ],
+        "semi": "off",
+        "@typescript-eslint/semi": "error",
         "space-before-blocks": "error",
         "space-before-function-paren": [
             "error",
